@@ -1,0 +1,231 @@
+
+
+.box {
+  background: #333;
+  margin: 0;
+  padding: 0;
+}
+
+.box .teste-box {
+  max-width: 800px;
+  min-height: 465px;
+  background: #fff;
+  margin: 0 auto;
+  margin-top: 10%;
+  padding-top: 60px;
+}
+
+.box .teste-box .teste-body{
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-bottom: 30px;
+}
+
+.box .teste-box .teste-body h1 {
+  font-size: 30px;
+  font-weight: 100;
+  text-align: center;
+}
+
+.box .teste-box .teste-body .form-teste {
+  max-width: 450px;
+  margin: 0 auto;
+  padding-top: 30px;
+}
+
+.box .teste-box .teste-body .form-teste .input {
+  height: 55px;
+  border-bottom: 1px solid #e4e4e4;
+  padding-top: 10px;
+  margin-bottom: 5px;
+  position: relative;
+}
+
+.box .teste-box .teste-body .form-teste .input i {
+  font-size: 18px;
+}
+.box .teste-box .teste-body .form-teste .input select{
+  border: 0;
+  box-shadow: none;
+}
+
+.box .teste-box .teste-body .form-teste .input input {
+  border: 0px;
+  font-size: 15px;
+  border-radius: 0;
+  max-width: 80%;
+  display: inline-block;
+  box-shadow: none;
+}
+
+.box .teste-box .teste-body .form-teste .input input:focus {
+  box-shadow: none;
+}
+
+.box .teste-box .teste-body .form-teste .input .alert {
+  display: none;
+}
+
+.box .teste-box .teste-body .form-teste .input.error {
+  border-color: #ff0000;
+}
+
+.box .teste-box .teste-body .form-teste .input.error i {
+  color: #ff0000;
+}
+
+.box .teste-box .teste-body .form-teste .input.error .alert {
+  display: block;
+  min-width: 140px;
+  height: 30;
+  background: #ff0000;
+  padding: 7px 20px;
+  position: absolute;
+  right: -150px;
+  top: 10px;
+  color: #fff;
+  font-size: 12px;
+  border-radius: 3px;
+}
+
+.box .teste-box .teste-body .form-teste .input.error .alert:after {
+  content: "";
+  width: 0;
+  height: 0;
+  position: absolute;
+  left: -8px;
+  border-top: 8px solid transparent;
+  border-bottom: 8px solid transparent;
+  border-right: 8px solid #f00;
+  border-radius: 42%;
+}
+
+.box .teste-box .teste-body .form-teste .btn-primary {
+  width: 250px;
+  height: 50px;
+  background: #FFA800;
+  border-radius: 26px;
+  border: 0px;
+  margin: 0 auto;
+  display: block;
+  margin-top: 30px;
+  font-size: 18px;
+}
+
+.box .teste-box .teste-body .form-teste .btn-primary:hover {
+  background: #ccc;
+}
+
+.box .teste-box .teste-body .form-teste .recovery-link {
+  font-size: 15px;
+  text-decoration: none;
+  color: #908e8e;
+  margin-top: 42px;
+  display: inline-block;
+}
+
+.box .teste-box .teste-body .form-teste .recovery-link:hover {
+  color: #333;
+}
+
+.alert.alert-warning {
+  background: #FFFF8D;
+  color: #C8B337;
+  border-color: #FFE55D;
+}
+
+.alert.alert-warning a {
+  color: #C8B337;
+}
+
+.label {
+  min-width: 140px;
+  display: inline-block;
+  padding: 8px 5px;
+  border-radius: 15px;
+}
+
+.label.label-warning {
+  background: #FF7F00;
+}
+
+.label.label-success {
+  background: #8BC34A;
+}
+
+.label.label-danger {
+  background: #F4382A;
+}
+
+.label.label-info {
+  background: #FFCA03;
+}
+
+.label.label-default {
+  background: #BBBBBB;
+}
+
+.btn-primary {
+  background: #FFCA02;
+  border-radius: 15px;
+  border: none;
+}
+
+.btn-primary:hover {
+  background: #111;
+  color: #fff;
+}
+
+@media (min-width: 768px) {
+  #page-wrapper {
+    position: inherit;
+    margin: 0 0 0 250px;
+    padding: 0 30px;
+    border-left: 1px solid #e7e7e7;
+  }
+  .sidebar {
+    z-index: 1;
+    position: absolute;
+    width: 250px;
+    margin-top: 80px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .navbar-top-links {
+    display: none;
+  }
+  .search {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .navbar-top-links {
+    display: none;
+  }
+  .teste-body h1 {
+    font-size: 15px !important;
+  }
+  .teste-body .form-teste {
+    padding: 15px;
+  }
+  .teste-body .form-teste .btn-primary {
+    width: 150px !important;
+  }
+  .teste-body .form-teste .input.error .alert {
+    right: 0px !important;
+    top: -20px !important;
+  }
+  .teste-body .form-teste .input.error .alert:after {
+    content: "";
+    width: 0;
+    height: 0;
+    position: absolute;
+    bottom: -8px;
+    border-left: 8px solid transparent;
+    border-bottom: 8px solid transparent;
+    border-right: 8px solid #f00;
+    border-radius: 42%;
+  }
+}
