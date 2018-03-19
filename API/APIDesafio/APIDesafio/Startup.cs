@@ -51,7 +51,7 @@ namespace APIDesafio
 
             app.UseCors(builder =>
             {
-                builder.WithOrigins("http://localhost").AllowAnyHeader().AllowAnyMethod();
+                builder.WithOrigins("http://localhost:5000").AllowAnyHeader().AllowAnyMethod();
             });
 
             app.UseMvc();

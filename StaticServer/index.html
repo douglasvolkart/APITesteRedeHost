@@ -1,0 +1,59 @@
+<html>
+<head>
+
+<link href="assets/css/bootstrap.min.css" media="all" rel="stylesheet" />
+<link href="assets/css/font-awesome.min.css" media="all" rel="stylesheet" />
+<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+<link href="assets/css/app.css" media="all" rel="stylesheet" />
+
+<title>Teste API RedeHost</title>
+
+
+
+</head>
+<body class="box">
+
+<div class="container">
+
+    <div class="row">
+        <div class="col-lg-12">
+            <div class="teste-box">
+                <div class="teste-body">
+                    <h1>Calcular <strong>datas</strong></h3>
+                    <div class="form-teste">
+                        <form method="post">
+                            <div class="input">
+                                <i class="fa fa-calendar-o" aria-hidden="true"></i>
+                                <input type="text" id="hour" class="form-control" placeholder="01/03/2010 23:00" value="01/03/2010 23:00">
+                            </div>   
+                            <div class="input">
+                                <i class="fa fa-clock-o" aria-hidden="true"></i>
+                                <input type="number" id="minutes" class="form-control" placeholder="4000" value="4000" min="1" max="72000">
+                            </div>   
+                            <div class="input">
+                                <select class="form-control" id="type">
+                                    <option value="+">Somar</option>
+                                    <option value="-">Subtrair</option>
+                                </select>
+                            </div>   
+                            
+                            <button type="button" class="btn btn-primary" id="button">Calcular</button>
+                        </form>
+                    </div>
+                    <div class="alert alert-info">
+                        <p><strong>Data atual:</strong> <span id="atual-date"></span></p>
+                    </div>
+                    <div class="alert alert-success" id="success" style="display:none">
+                        <p><strong>Data atualizada:</strong> <span id="update-date"></span></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<!-- APP-->
+<script src="assets/js/app.js"></script>
+</body>
+</html>

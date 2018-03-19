@@ -9,3 +9,14 @@ C:\Users\dougl\source\repos\APIDesafio\APIDesafio\obj\Debug\netcoreapp2.0\APIDes
 C:\Users\dougl\source\repos\APIDesafio\APIDesafio\obj\Debug\netcoreapp2.0\APIDesafio.AssemblyInfo.cs
 C:\Users\dougl\source\repos\APIDesafio\APIDesafio\obj\Debug\netcoreapp2.0\APIDesafio.dll
 C:\Users\dougl\source\repos\APIDesafio\APIDesafio\obj\Debug\netcoreapp2.0\APIDesafio.pdb
+C:\Users\dougl\Desktop\Desafio\API\APIDesafio\APIDesafio\bin\Debug\netcoreapp2.0\APIDesafio.deps.json
+C:\Users\dougl\Desktop\Desafio\API\APIDesafio\APIDesafio\bin\Debug\netcoreapp2.0\APIDesafio.runtimeconfig.json
+C:\Users\dougl\Desktop\Desafio\API\APIDesafio\APIDesafio\bin\Debug\netcoreapp2.0\APIDesafio.runtimeconfig.dev.json
+C:\Users\dougl\Desktop\Desafio\API\APIDesafio\APIDesafio\bin\Debug\netcoreapp2.0\APIDesafio.dll
+C:\Users\dougl\Desktop\Desafio\API\APIDesafio\APIDesafio\bin\Debug\netcoreapp2.0\APIDesafio.pdb
+C:\Users\dougl\Desktop\Desafio\API\APIDesafio\APIDesafio\obj\Debug\netcoreapp2.0\APIDesafio.csprojResolveAssemblyReference.cache
+C:\Users\dougl\Desktop\Desafio\API\APIDesafio\APIDesafio\obj\Debug\netcoreapp2.0\APIDesafio.csproj.CoreCompileInputs.cache
+C:\Users\dougl\Desktop\Desafio\API\APIDesafio\APIDesafio\obj\Debug\netcoreapp2.0\APIDesafio.AssemblyInfoInputs.cache
+C:\Users\dougl\Desktop\Desafio\API\APIDesafio\APIDesafio\obj\Debug\netcoreapp2.0\APIDesafio.AssemblyInfo.cs
+C:\Users\dougl\Desktop\Desafio\API\APIDesafio\APIDesafio\obj\Debug\netcoreapp2.0\APIDesafio.dll
+C:\Users\dougl\Desktop\Desafio\API\APIDesafio\APIDesafio\obj\Debug\netcoreapp2.0\APIDesafio.pdb
